@@ -1,5 +1,30 @@
-This Front-End application in React accesses the back-end in Node.Js
+# React Front-End
 
-The baseURL: 'http: // localhost: 3001 / api' that is in api.js is the path to the backend, can be configured according to your need to access.
+This is a React front-end application that accesses a back-end API built with Node.js.
 
-I recommend that you use the api on the back-end to populate the mongoDB bank before accessing the front-end, because here we only make inquiries.
+## Features
+React-based front-end
+
+API integration with Node.js back-end
+
+Simple setup for connecting to MongoDB via the API
+
+## Installation
+1. Clone the repository:
+* git clone https://github.com/luizcurti/reactFront.git
+
+2. Navigate to the project directory:
+* cd reactFront
+
+3. Install dependencies:
+* npm install
+
+Update the baseURL in api.js to point to your back-end API.
+
+4. Run the development server:
+* npm start
+
+## Notes
+Ensure the back-end API is running, as this front-end is designed to make queries to the back-end.
+
+It is recommended to populate the MongoDB database via the back-end API before using the front-end.
